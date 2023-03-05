@@ -1,5 +1,5 @@
 function caesar(inputWord) {
-    let letters = inputWord.split('');
+    let letters = inputWord.split(''); // -->> ['a', 'b', 'c']
     let arrayOfNums = [];
 
     for (let letter of letters) {
@@ -20,4 +20,4 @@ function caesar(inputWord) {
     console.log(result.join(''));
 }
 
-caesar('attack');
+caesar('abc');
