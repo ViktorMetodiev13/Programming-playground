@@ -1,6 +1,6 @@
-function dvorove(input) {
-    let kvm = Number(input[0]); // 550 
-    let totalPrice = kvm * 7.61; // 550 * 7.61 
+function yard(input) {
+    let squareKm = Number(input[0]); // 550 
+    let totalPrice = squareKm * 7.61; // 550 * 7.61 
     let discount = totalPrice * 0.18; 
     let result = totalPrice - discount;
 
@@ -8,4 +8,4 @@ function dvorove(input) {
     console.log(result);
 }
 
-dvorove(["550"])
+yard(["550"])
